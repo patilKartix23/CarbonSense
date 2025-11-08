@@ -8,6 +8,17 @@
       "source": "/api/:path*",
       "destination": "https://carbon-tracker-an-awareness-app.onrender.com/api/:path*"
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    }
   ]
 }
 
