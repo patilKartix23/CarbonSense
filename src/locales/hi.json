@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "carbonTracker": "कार्बन ट्रैकर",
+    "ccusHub": "सीसीयूएस हब",
+    "ecoMarket": "इको मार्केट",
+    "climateMap": "जलवायु मानचित्र",
+    "socialFeed": "सोशल फीड",
+    "advocacy": "वकालत",
+    "login": "लॉगिन",
+    "signUp": "साइन अप"
+  },
+  "home": {
+    "title": "जलवायु ट्रैकर",
+    "subtitle": "जलवायु परिवर्तन और कार्बन फुटप्रिंट की निगरानी करें",
+    "description": "एआई-संचालित अंतर्दृष्टि और सामाजिक सुविधाओं के साथ व्यापक जलवायु निगरानी और कार्बन फुटप्रिंट ट्रैकिंग एप्लिकेशन।",
+    "getStarted": "शुरू करें",
+    "learnMore": "और जानें"
+  },
+  "dashboard": {
+    "welcome": "वापसी पर स्वागत है!",
+    "yourImpact": "आपका जलवायु प्रभाव",
+    "carbonSaved": "कार्बन बचाया",
+    "treesPlanted": "पेड़ लगाए",
+    "waterSaved": "पानी बचाया",
+    "recentActivity": "हाल की गतिविधि",
+    "viewAll": "सभी देखें"
+  },
+  "social": {
+    "share": "साझा करें",
+    "like": "पसंद",
+    "comment": "टिप्पणी",
+    "likes": "पसंद",
+    "comments": "टिप्पणियाँ",
+    "location": "स्थान",
+    "timeAgo": "{{time}} पहले",
+    "createPost": "पोस्ट बनाएं",
+    "whatsOnMind": "आपके मन में क्या है?",
+    "post": "पोस्ट करें",
+    "cancel": "रद्द करें"
+  },
+  "advocacy": {
+    "petitions": "याचिकाएँ",
+    "stories": "प्रभाव की कहानियाँ",
+    "trending": "ट्रेंडिंग",
+    "sign": "याचिका पर हस्ताक्षर करें",
+    "signatures": "हस्ताक्षर",
+    "goal": "लक्ष्य",
+    "victory": "जीत!",
+    "active": "सक्रिय",
+    "viewDetails": "विवरण देखें"
+  },
+  "ecoMarket": {
+    "title": "इको मार्केट",
+    "subtitle": "टिकाऊ खरीदारी",
+    "products": "उत्पाद",
+    "addToCart": "कार्ट में जोड़ें",
+    "buyNow": "अभी खरीदें",
+    "price": "कीमत",
+    "inStock": "स्टॉक में",
+    "outOfStock": "स्टॉक में नहीं",
+    "carbonOffset": "कार्बन ऑफसेट"
+  },
+  "common": {
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "sort": "क्रमबद्ध करें",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "save": "सहेजें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "next": "अगला",
+    "submit": "जमा करें",
+    "logout": "लॉगआउट"
+  },
+  "climate": {
+    "temperature": "तापमान",
+    "humidity": "आर्द्रता",
+    "airQuality": "वायु गुणवत्ता",
+    "aqi": "एक्यूआई",
+    "good": "अच्छा",
+    "moderate": "मध्यम",
+    "poor": "खराब",
+    "weatherConditions": "मौसम की स्थिति"
+  }
+}

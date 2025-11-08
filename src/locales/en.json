@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "carbonTracker": "Carbon Tracker",
+    "ccusHub": "CCUS Hub",
+    "ecoMarket": "EcoMarket",
+    "climateMap": "Climate Map",
+    "socialFeed": "Social Feed",
+    "advocacy": "Advocacy",
+    "login": "Login",
+    "signUp": "Sign Up"
+  },
+  "home": {
+    "title": "CarbonSense",
+    "subtitle": "ML-Powered Weather and Carbon Footprint Tracker",
+    "description": "An ML-powered comprehensive climate monitoring and carbon footprint tracking application with AI-powered insights and social features.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "dashboard": {
+    "welcome": "Welcome back!",
+    "yourImpact": "Your Climate Impact",
+    "carbonSaved": "Carbon Saved",
+    "treesPlanted": "Trees Planted",
+    "waterSaved": "Water Saved",
+    "recentActivity": "Recent Activity",
+    "viewAll": "View All"
+  },
+  "social": {
+    "share": "Share",
+    "like": "Like",
+    "comment": "Comment",
+    "likes": "Likes",
+    "comments": "Comments",
+    "location": "Location",
+    "timeAgo": "{{time}} ago",
+    "createPost": "Create Post",
+    "whatsOnMind": "What's on your mind?",
+    "post": "Post",
+    "cancel": "Cancel"
+  },
+  "advocacy": {
+    "petitions": "Petitions",
+    "stories": "Impact Stories",
+    "trending": "Trending",
+    "sign": "Sign Petition",
+    "signatures": "Signatures",
+    "goal": "Goal",
+    "victory": "Victory!",
+    "active": "Active",
+    "viewDetails": "View Details"
+  },
+  "ecoMarket": {
+    "title": "EcoMarket",
+    "subtitle": "Sustainable Shopping",
+    "products": "Products",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "price": "Price",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "carbonOffset": "Carbon Offset"
+  },
+  "common": {
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "logout": "Logout"
+  },
+  "climate": {
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "airQuality": "Air Quality",
+    "aqi": "AQI",
+    "good": "Good",
+    "moderate": "Moderate",
+    "poor": "Poor",
+    "weatherConditions": "Weather Conditions"
+  }
+}
