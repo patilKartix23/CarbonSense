@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Calculator, TrendingDown, Leaf, BarChart3, Plus, Target, Award, Users } from 'lucide-react'
 import ActivityLogger from '../components/carbon/ActivityLogger'
 import DailySummary from '../components/carbon/DailySummary'

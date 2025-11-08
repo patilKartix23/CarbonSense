@@ -1,5 +1,5 @@
 import apiClient from './client'
-import { ClimateData, AirQualityData, WeatherForecast } from '../types/climate'
+import { ClimateData } from '../types/climate'
 
 export const climateAPI = {
   async getClimateData(lat: number, lon: number, days: number = 7): Promise<ClimateData> {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Calculator, Car, Utensils, Zap, ShoppingBag, Home, Plus, Check, TrendingDown, Lightbulb } from 'lucide-react'
+import { Calculator, Car, Utensils, Zap, ShoppingBag, Home, Check, Lightbulb } from 'lucide-react'
 import toast from 'react-hot-toast'
 import { carbonAPI } from '../../api/carbon'
 
@@ -37,7 +37,7 @@ const ActivityLogger: React.FC<ActivityLoggerProps> = ({ onActivityLogged }) => 
   const fetchActivities = async () => {
     try {
         const response = await carbonAPI.getAvailableActivities()
-      setActivities(response.activities)
+      setActivities(response.activities as Record<string, Activity>)
       
         // Set default activity for transportation
         const transportActivities = Object.keys(response.activities).filter(

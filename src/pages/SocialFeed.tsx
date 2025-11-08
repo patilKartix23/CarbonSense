@@ -12,7 +12,7 @@ import {
   X
 } from 'lucide-react'
 import { socialAPI } from '../api/social'
-import { SocialPost, CreatePost, PostComment, CreateComment } from '../types/social'
+import { SocialPost, CreatePost, PostComment } from '../types/social'
 import { useLocation } from '../contexts/LocationContext'
 import { useAuth } from '../contexts/AuthContext'
 

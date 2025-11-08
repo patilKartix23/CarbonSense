@@ -211,8 +211,8 @@ const DailySummary: React.FC = () => {
                   }`} />
                 ) : (
                   <TrendingUp className={`w-6 h-6 ${
-                    summary.comparison_to_india_avg.status === 'below' 
-                      ? 'text-green-700' 
+                    summary.comparison_to_india_avg.status === 'below' || summary.comparison_to_india_avg.status === 'above'
+                      ? summary.comparison_to_india_avg.status === 'below' ? 'text-green-700' : 'text-red-700'
                       : 'text-red-700'
                   }`} />
                 )}

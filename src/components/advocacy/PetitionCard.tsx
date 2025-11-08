@@ -3,7 +3,6 @@
  */
 import { MapPin, Users, Clock, TrendingUp, CheckCircle, ExternalLink } from 'lucide-react';
 import { Petition } from '../../types/advocacy';
-import { formatDistanceToNow } from 'date-fns';
 
 interface PetitionCardProps {
   petition: Petition;

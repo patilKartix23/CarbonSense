@@ -13,7 +13,7 @@ import {
   Cloud
 } from 'lucide-react'
 import { indianClimateAPI, IndianClimateData, IndianCityWeather } from '../api/indian-climate'
-import { INDIAN_CITIES, INDIAN_STATES, getCitiesByZone, getStatesByZone } from '../data/indian-geography'
+import { INDIAN_CITIES } from '../data/indian-geography'
 import ClimateTrendsChart from '../components/climate/ClimateTrendsChart'
 
 interface ViewMode {

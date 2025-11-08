@@ -433,15 +433,15 @@ const CCUSPage: React.FC = () => {
                           <span className="font-semibold">Total:</span>
                           <span className="font-bold text-blue-600">{data.total_capacity} MT</span>
                         </div>
-                        {data.description && (
+                        {(data as any).description && (
                           <div className="mt-3 pt-3 border-t">
-                            <p className="text-xs text-gray-500 italic">{data.description}</p>
+                            <p className="text-xs text-gray-500 italic">{(data as any).description}</p>
                           </div>
                         )}
-                        {data.active_projects && data.active_projects.length > 0 && (
+                        {(data as any).active_projects && (data as any).active_projects.length > 0 && (
                           <div className="mt-3 pt-3 border-t">
                             <p className="text-xs font-semibold text-green-700 mb-1">Active Projects:</p>
-                            {data.active_projects.map((project: string, idx: number) => (
+                            {(data as any).active_projects.map((project: string, idx: number) => (
                               <div key={idx} className="text-xs text-gray-600 flex items-start">
                                 <span className="text-green-600 mr-1">✓</span>
                                 <span>{project}</span>
