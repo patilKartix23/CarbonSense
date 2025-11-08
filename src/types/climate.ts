@@ -8,6 +8,7 @@ export interface ClimateData {
     end: string
   }
   data: {
+    current_weather?: any
     historical_climate: any
     air_quality: AirQualityData
     weather_forecast: WeatherForecast
