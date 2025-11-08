@@ -29,7 +29,8 @@ export const climateAPI = {
             coord: { lon, lat },
             list: [{
               main: { aqi: 3 },
-              components: { pm2_5: 15.2, pm10: 25.8, no2: 18.5, o3: 45.2, so2: 2.1, co: 180.3, no: 12.5, nh3: 8.2 }
+              components: { pm2_5: 15.2, pm10: 25.8, no2: 18.5, o3: 45.2, so2: 2.1, co: 180.3, no: 12.5, nh3: 8.2 },
+              dt: Math.floor(Date.now() / 1000)
             }]
           },
           weather_forecast: { list: [], cod: '200', message: 0, cnt: 0 },
@@ -89,7 +90,8 @@ export const climateAPI = {
           coord: { lon: 77.5946, lat: 12.9716 },
           list: [{
             main: { aqi: 3 },
-            components: { pm2_5: 15.2, pm10: 25.8, no2: 18.5, o3: 45.2, so2: 2.1, co: 180.3, no: 12.5, nh3: 8.2 }
+            components: { pm2_5: 15.2, pm10: 25.8, no2: 18.5, o3: 45.2, so2: 2.1, co: 180.3, no: 12.5, nh3: 8.2 },
+            dt: Math.floor(Date.now() / 1000)
           }]
         },
         timestamp: new Date().toISOString()
@@ -112,7 +114,8 @@ export const climateAPI = {
           coord: { lon, lat },
           list: [{
             main: { aqi: 3 },
-            components: { pm2_5: 15.2, pm10: 25.8, no2: 18.5, o3: 45.2, so2: 2.1, co: 180.3, no: 12.5, nh3: 8.2 }
+            components: { pm2_5: 15.2, pm10: 25.8, no2: 18.5, o3: 45.2, so2: 2.1, co: 180.3, no: 12.5, nh3: 8.2 },
+            dt: Math.floor(Date.now() / 1000)
           }]
         },
         timestamp: new Date().toISOString()
